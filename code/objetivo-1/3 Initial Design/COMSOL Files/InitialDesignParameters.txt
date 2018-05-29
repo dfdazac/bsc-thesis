@@ -1,0 +1,42 @@
+g 0.5[mm] Airgap distance
+tau 3.5[cm] Pole pitch
+q 2 Number of slots per pole per phase
+taus 5.83[mm] Slot pitch
+Dso 1[mm] Slot opening distance
+bs2taus 3/4 Slot width to slot pitch ratio
+tw taus*(1-bs2taus) Teeth width
+twt taus-Dso Teeth termination width
+Htt1 1[mm] Width of teeth termination 1
+Htt2 1[mm] Width of teeth termination 2
+bs bs2taus*taus Slot width
+hs 3*bs Slot height
+Ns 29 Number of slots
+hc 5.57[mm] Back iron core height
+L 7.15[cm] Transversal length of the armature (7.5cm)
+phi 1.618034 Golden ratio
+hrr tau/(2*phi) Reaction rail height
+thetarr 45[deg] Reaction rail laminations angle
+xrr1 hrr*tan(thetarr) Reaction rail lamination horizontal ends length
+xrr2 tau-2*xrr1 Reaction rail lamination horizontal middle length
+wrr 2[mm] Reaction rail laminations width
+Nrr 7 Number of reaction rail lamination sets
+nc 53 Number of turns per coil
+Iav 2.24[A] Phase average current
+Jav 8.24e6[A/m^2] Phase average current density
+Acp Iav/Jav Phase effective conducting area
+kfill 0.5 Slot fill factor
+acoil (hs*bs*kfill)/(2*nc) Coil wire cross-section area
+Iarms 3.16[A] Phase rms current (continuous duty)
+Iap sqrt(2)*Iarms Phase peak current (continuous duty)
+phia 0 Phase A phase
+phib 2*pi/3 Phase B phase
+phic 4*pi/3 Phase C phase
+Lp Ns*taus Length of the primary
+Xposd -7*(twt+Dso)/2+2*tau Position in alignment with phase A magnetic axis
+Xposq -7*(twt+Dso)/2+3*tau/2 Position in unalignment with phase A magnetic axis
+Xpos Xposq Horizontal position of the mover
+Um 2[m/s] Mover speed
+Wm 179.5 Line frequency (rad)
+fm Wm/(2*pi) Line frequency (Hz)
+Im -1.75[A] Peak phase current for stationary analysis
+Lec 0.0538 End-connection length

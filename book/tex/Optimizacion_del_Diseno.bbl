@@ -1,0 +1,130 @@
+\begin{thebibliography}{10}
+
+\bibitem{yokoi1989}
+T.~Yokoi and D.~Ebihara, ``An optimal design technique for high speed
+  single-sided linear induction motors using mathematical programming method,''
+  {\em IEEE Transactions on Magnetics}, vol.~25, no.~5, pp.~3596--3598, 1989.
+
+\bibitem{basak1995}
+A.~Basak and A.~F.~F. Filho, ``Design optimisation of a novel slotless linear
+  stepping motor,'' in {\em Electrical Machines and Drives, 1995. Seventh
+  International Conference on (Conf. Publ. No. 412)}, pp.~368--372, 1995.
+
+\bibitem{rao2003}
+K.~S.~R. Rao, ``Design optimization of 3-phase converter fed dc series motor,''
+  in {\em Power Engineering Conference, 2003. PECon 2003. Proceedings.
+  National}, pp.~127--132, 2003.
+
+\bibitem{mohammadi2015}
+M.~H. Mohammadi, T.~Rahman, R.~Silva, M.~Li, and D.~A. Lowther, ``A
+  computationally efficient algorithm for rotor design optimization of
+  synchronous reluctance machines,'' {\em IEEE Transactions on Magnetics},
+  vol.~52, no.~3, pp.~1--4, 2016.
+
+\bibitem{cupertino2014}
+F.~Cupertino, G.~Pellegrino, and C.~Gerada, ``Design of synchronous reluctance
+  motors with multiobjective optimization algorithms,'' {\em IEEE Transactions
+  on Industry Applications}, vol.~50, no.~6, pp.~3617--3627, 2014.
+
+\bibitem{sato2015}
+S.~Sato, T.~Sato, and H.~Igarashi, ``Topology optimization of synchronous
+  reluctance motor using normalized gaussian network,'' {\em IEEE Transactions
+  on Magnetics}, vol.~51, no.~3, pp.~1--4, 2015.
+
+\bibitem{hasanien2011}
+H.~M. Hasanien, ``Particle swarm design optimization of transverse flux linear
+  motor for weight reduction and improvement of thrust force,'' {\em IEEE
+  Transactions on Industrial Electronics}, vol.~58, no.~9, pp.~4048--4056,
+  2011.
+
+\bibitem{duan2013}
+Y.~Duan and D.~M. Ionel, ``A review of recent developments in electrical
+  machine design optimization methods with a permanent magnet synchronous motor
+  benchmark study,'' in {\em 2011 IEEE Energy Conversion Congress and
+  Exposition}, pp.~3694--3701, 2011.
+
+\bibitem{tenne2010}
+Y.~Tenne and C.-K. Goh, {\em Computational Intelligence in Expensive
+  Optimization Problems}, vol.~2 of {\em Adaptation, Learning and
+  Optimization}.
+\newblock Springer, 2010.
+
+\bibitem{nocedal1999}
+J.~Nocedal and S.~J. Wright, {\em Numerical Optimization}.
+\newblock Springer, 1~ed., 1999.
+
+\bibitem{raminosoa2006}
+T.~Raminosoa, I.~Rasoanarivo, F.~m.~Sargos, and R.~N. Andriamalala,
+  ``Constrained optimization of high power synchronous reluctance motor using
+  non linear reluctance network modeling,'' in {\em Conference Record of the
+  2006 IEEE Industry Applications Conference Forty-First IAS Annual Meeting},
+  vol.~3, pp.~1201--1208, 2006.
+
+\bibitem{astrid2014}
+A.~Rokke, ``Gradient based optimization of permanent magnet generator design
+  for a tidal turbine,'' in {\em Electrical Machines (ICEM), 2014 International
+  Conference on}, pp.~1199--1205, 2014.
+
+\bibitem{barhoumi2016}
+E.~M. Barhoumi, F.~Wurtz, C.~Chillet, B.~B. Salah, and O.~Chadebec, ``Efficient
+  reluctance network formulation for modeling design and optimization of linear
+  hybrid motor,'' {\em IEEE Transactions on Magnetics}, vol.~52, no.~3,
+  pp.~1--4, 2016.
+
+\bibitem{goldberg1989}
+D.~E. Goldberg, {\em Genetic Algorithms in Search, Optimization, and Machine
+  Learning}.
+\newblock Addison-Wesley Professional, 1~ed., 1989.
+
+\bibitem{cassimere2009}
+B.~N. Cassimere and S.~D. Sudhoff, ``Population-based design of surface-mounted
+  permanent-magnet synchronous machines,'' {\em Energy Conversion, IEEE
+  Transactions on}, vol.~24, no.~2, pp.~338--346, 2009.
+
+\bibitem{dinardo2015}
+M.~Di~Nardo, M.~Galea, C.~Gerada, M.~Palmieri, and F.~Cupertino,
+  ``Multi-physics optimization strategies for high speed synchronous reluctance
+  machines,'' in {\em Energy Conversion Congress and Exposition (ECCE), 2015
+  IEEE}, pp.~2813--2820, IEEE, 2015.
+
+\bibitem{tuvsar2007}
+T.~Tu{\v{s}}ar, P.~Koro{\v{s}}ec, G.~Papa, B.~Filipi{\v{c}}, and J.~{\v{S}}ilc,
+  ``A comparative study of stochastic optimization methods in electric motor
+  design,'' {\em Applied Intelligence}, vol.~27, no.~2, pp.~101--111, 2007.
+
+\bibitem{hasanien2010b}
+H.~M. Hasanien, A.~S. Abd-Rabou, and S.~M. Sakr, ``Design optimization of
+  transverse flux linear motor for weight reduction and performance improvement
+  using response surface methodology and genetic algorithms,'' {\em Energy
+  Conversion, IEEE Transactions on}, vol.~25, no.~3, pp.~598--605, 2010.
+
+\bibitem{herrera1998}
+F.~Herrera, M.~Lozano, and J.~L. Verdegay, ``Tackling real-coded genetic
+  algorithms: Operators and tools for behavioural analysis,'' {\em Artificial
+  intelligence review}, vol.~12, no.~4, pp.~265--319, 1998.
+
+\bibitem{passino2002}
+K.~M. Passino, ``Biomimicry of bacterial foraging for distributed optimization
+  and control,'' {\em Control Systems, IEEE}, vol.~22, no.~3, pp.~52--67, 2002.
+
+\bibitem{precup2014}
+R.~E. Precup, A.~L. Borza, M.~B. Radac, and E.~M. Petriu, ``Performance
+  analysis of torque motor systems with pid controllers tuned by bacterial
+  foraging optimization algorithms,'' in {\em 2014 IEEE International
+  Conference on Computational Intelligence and Virtual Environments for
+  Measurement Systems and Applications (CIVEMSA)}, pp.~141--146, 2014.
+
+\bibitem{precup2014b}
+R.~E. Precup, A.~L. Borza, M.~B. Radac, and E.~M. Petriu, ``Bacterial foraging
+  optimization approach to the controller tuning for automotive torque
+  motors,'' in {\em 2014 IEEE 23rd International Symposium on Industrial
+  Electronics (ISIE)}, pp.~972--977, 2014.
+
+\bibitem{sakthivel2010}
+V.~Sakthivel, R.~Bhuvaneswari, and S.~Subramanian, ``Design optimization of
+  three-phase energy efficient induction motor using adaptive bacterial
+  foraging algorithm,'' {\em COMPEL-The international journal for computation
+  and mathematics in electrical and electronic engineering}, vol.~29, no.~3,
+  pp.~699--726, 2010.
+
+\end{thebibliography}

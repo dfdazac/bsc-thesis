@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{jin2011}
+Y.~Jin, ``Surrogate-assisted evolutionary computation: Recent advances and
+  future challenges,'' {\em Swarm and Evolutionary Computation}, vol.~1, no.~2,
+  pp.~61 -- 70, 2011.
+
+\bibitem{forrester2008}
+A.~Forrester, A.~Sobester, and A.~Keane, {\em Engineering Design via Surrogate
+  Modelling: A Practical Guide}.
+\newblock Wiley, 1~ed., 2008.
+
+\bibitem{koziel2013}
+S.~Koziel and L.~Leifsson, {\em Surrogate-Based Modeling and Optimization}.
+\newblock Springer, 1~ed., 2013.
+
+\bibitem{sumoabout}
+``About - {SUMO}wiki.'' \url{http://sumowiki.intec.ugent.be/About}.
+\newblock Accedido: 5-28-2016.
+
+\bibitem{gorissen2010b}
+D.~Gorissen, K.~Crombecq, I.~Couckuyt, T.~Dhaene, and P.~Demeester, ``A
+  surrogate modeling and adaptive sampling toolbox for computer based design,''
+  {\em Journal of Machine Learning Research}, vol.~11, no.~1, pp.~2051--2010,
+  2010.
+
+\bibitem{gorissen2010}
+D.~Gorissen, I.~Couckuyt, E.~Laermans, and T.~Dhaene, ``Multiobjective global
+  surrogate modeling, dealing with the 5-percent problem,'' {\em Engineering
+  with Computers}, vol.~26, no.~1, pp.~81--98, 2010.
+
+\bibitem{rong2006}
+X.~R. Li and Z.~Zhao, ``Evaluation of estimation algorithms part {I}:
+  Incomprehensive measures of performance,'' {\em IEEE Transactions on
+  Aerospace and Electronic Systems}, vol.~42, no.~4, pp.~1340--1358, 2006.
+
+\bibitem{farmaga2011}
+I.~Farmaga, P.~Shmigelskyi, P.~Spiewak, and L.~Ciupinski, ``Evaluation of
+  computational complexity of finite element analysis,'' in {\em CAD Systems in
+  Microelectronics (CADSM), 2011 11th International Conference The Experience
+  of Designing and Application of}, pp.~213--214, 2011.
+
+\end{thebibliography}

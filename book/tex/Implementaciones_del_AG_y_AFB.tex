@@ -1,0 +1,276 @@
+\chapter{Implementaciones del AG y AFB}
+
+A continuación se lista el código utilizado para implementar el algoritmo genético y el algoritmo de forrajeo de bacterias, utilizando el lenguaje de programación MATLAB.
+
+\section{Algoritmo Genético}
+
+\begin{scriptsize}
+\begin{verbatim}
+function best = runga(f, vars, popSize, nGen, spress, pcross, pmut, varargin)
+%%RUNGA Ejecuta el Algoritmo Genético para maximización. Esta versión
+%asume que f es una función objetivo vectorizada.
+
+%% Preparar
+% Número de variables
+n = size(vars, 1);
+% Determinar si se graficará curva de evolución
+plotFlag = false;
+arg = strcmpi(varargin, 'Plot');
+if any(arg), plotFlag = true; end;
+
+%% Crear estructuras de datos
+% Población inicial
+pop = repmat(vars(:,2) - vars(:,1), 1, popSize).*rand(n, popSize) + ...
+    repmat(vars(:,1), 1, popSize);
+% Población intermedia
+ipop = zeros(n, popSize);
+% Historia de aptitud
+minH = zeros(1, nGen);
+maxH = zeros(1, nGen);
+
+%% Iniciar evolución
+for i = 1:nGen
+    %% Los individuos viven y son puestos a prueba
+    % Vector de valores de la función objetivo
+    objf = f(pop);
+    % Vector de eficiencia
+    fmax = max(objf);
+    fmin = min(objf);
+    minH(i) = fmin;
+    maxH(i) = fmax;
+    eff = (1-spress)*(objf-fmin)/max([fmax-fmin, eps]) + spress;
+    % Selección por ruleta
+    wheel = cumsum(eff);
+    
+    %% Los más aptos tienen más probabilidad de reproducirse
+    % Generar conjunto de apareamiento
+    for j = 1:popSize
+        spin = max(wheel) * rand(1);        
+        ipop(:,j) = pop(:,find(wheel >= spin, 1));
+    end
+    
+    % Reproducir y cruzar
+    for j = 1:2:popSize-1
+        if rand(1) < pcross
+            child = 0.5* ipop(:,j) + 0.5*ipop(:,j+1);
+            pop(:,j) = child;
+            pop(:,j+1) = child;
+        else
+            pop(:,j) = ipop(:,j);
+            pop(:,j+1) = ipop(:,j+1);
+        end
+    end
+    
+    %% Algunos de los hijos sufren mutaciones
+    for j = 1:popSize
+        if rand(1) < pmut
+            idx = randi(n);
+            pop(idx, j) = (vars(idx,2) - vars(idx,1))*rand(1) + vars(idx,1);
+        end
+    end    
+end
+
+%% Seleccionar el mejor individuo
+[~, idx] = max(objf);
+best = pop(:, idx);
+
+%% Graficar historia
+if plotFlag
+    figure; hold on;
+    plot(minH);
+    plot(maxH, 'r');
+    legend('J_{min}', 'J_{max}', 'location', 'SouthEast');
+    xlabel('Generaciones');
+    ylabel('Función de aptitud');
+    grid on;
+end
+end
+\end{verbatim}
+\end{scriptsize}
+
+\section{Algoritmo de Forrajeo de Bacterias}
+\begin{scriptsize}
+\begin{verbatim}
+function best = runbf(f, vars, params, varargin)
+%%RUNBF Ejecutar forrajeo de bacterias para maximización. Esta versión 
+%asume que f es una función objetivo vectorizada. Los
+%parámetros se definen por el vector params de longitud 10, como sigue:
+%   params(1): Tamaño de la población (debe ser impar)
+%   params(2): Número de eventos de quemotaxis
+%   params(3): Longitud de nado
+%   params(4): Número de eventos de reproducción
+%   params(5): Número de eventos de dispersión
+%   params(6): Probabilidad de dispersión
+%   params(7): Concentración de atractor/repelente
+%   params(8): Ancho del atractor
+%   params(9): Ancho del repelente
+%   params(10): Longitud de movimiento
+%   params(11): Presión selectiva
+%Esta es una lista de parámetros libres orientada a permitir la experimentación. 
+%Sin embargo, los siguientes parámetros pueden utilizarse inicialmente para realizar pruebas:
+%   params = [50, 100, 4, 4, 2, 0.25, 0.1, 0.2, 10, 0.1, 0.01];
+
+%% Preparar
+
+% Número de dimensiones
+n = size(vars, 1);
+% Tamaño de la población
+S = params(1);
+% Número de eventos de quemotaxis
+Nc = params(2);
+% Longitud de nado
+Ns = params(3);
+% Número de eventos de reproducción
+Nre = params(4);
+% Número de eventos de dispersión
+Ned = params(5);
+% Probabilidad de dispersión
+ped = params(6);
+% Concentración de atractor/repelente
+Sar = params(7);
+% Ancho del atractor
+Wa = params(8);
+% Ancho del repelente
+Wr = params(9);
+% Longitud de movimiento
+ru = params(10);
+% Presión selectiva
+spress = params(11);
+
+% Determinar si se graficará curva de evolución
+plotFlag = false;
+arg = strcmpi(varargin, 'Plot');
+if any(arg), plotFlag = true; end;
+
+%% Crear estructuras de datos
+% Posiciones de la población de bacterias
+P = repmat(vars(:,2) - vars(:,1), 1, S).*rand(n, S) + repmat(vars(:,1), 1, S);
+% Historia de la función de nutrientes
+Jhmin = zeros(Ned*Nre*Nc, 1);
+Jhmax = zeros(Ned*Nre*Nc, 1);
+simStep = 1;
+
+%% Iniciar simulación
+% Iniciar ciclo de dispersión
+for i = 1:Ned
+    % Iniciar ciclo de reproducción
+    for j = 1:Nre
+        %% Iniciar ciclo de quemotaxis
+        for k = 1:Nc
+            % Calcular la concentración de nutrientes
+            J = f(P);
+            
+            % Guardar historia
+            Jhmin(simStep) = min(J);
+            Jhmax(simStep) = max(J);
+            simStep = simStep + 1;
+            
+            % Añadir efecto célula a célula
+            J = J + cell2cell(J);                       
+            % Ciclo de nado
+            for m = 1:Ns
+                % Guardar actual superficie de nutrientes
+                Jp = J; 
+                % Calcular la siguiente posición de cada bacteria (en una
+                % matriz de población intermedia) utlizando un vector aleatorio
+                Pi = P + ru * randuv(n, S);
+                % Inicializar siguientes posiciones con la posición actual
+                Pnext = P;
+                % Vector lógico que contiene índices de las bacterias
+                % cuyos movimientos no violan las restricciones después de
+                % nadar
+                valid = sum(bsxfun(@gt, Pi, vars(:,1)) & bsxfun(@lt, Pi, vars(:,2)), 1) == n;
+                % Actualizar posiciones válidas
+                Pnext(:,valid) = Pi(:,valid);
+                % Calcular nueva superficie de nutrientes
+                J = f(Pnext);
+                J = J + cell2cell(J);
+                % Sólo si para cada bacteria la función de nutrientes es
+                % mejor, esta es movida
+                valid = bsxfun(@gt, J, Jp);
+                P(:,valid) = Pnext(:,valid);
+            end
+        end
+        % Fin del ciclo de quemotaxis
+        
+        %% Reproducción
+        % Passino sugiere el uso de la historia de la función de nutrientes como
+        % medida de aptitud para la selección y reproducción. Aquí se propone
+        % el uso de la medida de eficiencia (usada en el AG) por simplicidad.
+        
+        % Actualizar la superficie de nutrientes después de la quemotaxis
+        J = f(P);
+        Jmax = max(J);
+        Jmin = min(J);
+        eff = (1-spress)*(J - Jmin)/max([Jmax - Jmin, eps]) + spress;
+        % Ordenar bacterias en orden descendiente de eficiencia
+        [~, idxs] = sort(eff, 'descend');
+        P(:,:) = P(:,idxs);
+        % La mitad de la población menos apta muere y el resto se divide en dos
+        % copias idénticas
+        P(:,S/2+1:end) = P(:,1:S/2);
+    end
+    %% Eventos de dispersión
+    for j = 1:S
+        if rand < ped
+            idx = randi(n);
+            P(idx, j) = (vars(idx,2) - vars(idx,1))*rand + vars(idx,1);
+        end
+    end  
+end
+%% Seleccionar el mejor individuo
+% Calcular la superficie de nutrientes final
+J = f(P);
+[~, idx] = max(J);
+best = P(:,idx);
+
+%% Graficar
+if plotFlag
+    figure; hold on;
+    plot(Jhmin);
+    plot(Jhmax, 'r');
+    xlabel('Pasos');
+    ylabel('Función de Nutrientes');
+    legend('J_{min}', 'J_{max}', 'location', 'SouthEast');
+    xlim([1, length(Jhmin)]);
+    grid on;
+end
+
+%% Función de efecto célula a célula
+function Jcc = cell2cell(X)
+    % Preparar espacio en memoria
+    Jcc = zeros(1, S);
+    % Calcular la función para cada bacteria
+    for b = 1:S
+        % Matriz de suma de cuadrados de la diferencia
+        Ds = sum((repmat(X(:,b), 1, S) - X).^2, 1);
+        Jcc(b) = Sar * (sum(exp(-Wa * Ds), 2) - sum(exp(-Wr * Ds), 2));
+    end
+end
+
+%% Generador de vectores unitarios aleatorios
+function V = randuv(n, S)
+% Genera S vectores unitarios aleatorios de n dimensiones.
+% Basado en el generador de Maxim Vedenyov's.
+% Ver http://www.mathworks.com/matlabcentral/fileexchange/25363-random-unit-vector-generator
+    V = zeros(n, S);
+    for ii = 1:S
+        % Repetir si el vector es muy pequeño
+        while 1
+            % Usar una distribución normal para garantizar distribución del ángulo uniforme
+            v = randn(n, 1);
+            % Cuadrado de la norma
+            vsnorm = v'*v;
+            if vsnorm > 1e-10
+                % Normalizar
+                v = v/sqrt(vsnorm);
+                break;
+            end
+        end
+        V(:, ii) = v;
+    end
+end
+
+end
+\end{verbatim}
+\end{scriptsize}

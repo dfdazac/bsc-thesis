@@ -1,0 +1,18 @@
+% ----------------------------------------------------------------------------
+% This file contains profiled data created with the SUMO Toolbox profiler v2015a
+% 
+%   * Name: Measure_out_SampleError_averageEuclideanError_off
+%   * Description: SampleError score on out; using averageEuclideanError
+%   * Date: 02/03/2016 at 11:17
+% 
+%   * Column1: 	iteration: 	New best model number
+%   * Column2: 	score: 	SampleError score using averageEuclideanError, target is 0
+%
+% ----------------------------------------------------------------------------
+
+1.000000000E0	3.16932789698E-6	
+2.000000000E0	1.816286548029E-13	
+3.000000000E0	1.373313947913E-13	
+4.000000000E0	2.769154885155E-13	
+5.000000000E0	1.669126113557E-13	
+6.000000000E0	1.175311046952E-13	

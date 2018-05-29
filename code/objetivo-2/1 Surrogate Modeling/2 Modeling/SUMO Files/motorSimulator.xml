@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Simulator>
+	<Name>motorSimulator</Name>
+	<Description>
+		See motorSimulator.m
+	</Description>
+	
+	<!-- The input parameters -->
+	<InputParameters>
+		<Parameter name="tau" type="real" minimum="5.0" maximum="12.0"/>
+		<Parameter name="L" type="real" minimum="5.0" maximum="14.0"/>
+		<Parameter name="bs2taus" type="real" minimum="0.4" maximum="0.7"/>
+		<Parameter name="hs" type="real" minimum="2.0" maximum="4.0"/>
+		<Parameter name="Im" type="real" minimum="1.0" maximum="5.0"/>
+		<Parameter name="nc" type="real" minimum="25.0" maximum="100.0"/>
+	</InputParameters>
+		
+	<!-- The output parameters -->
+	<OutputParameters>
+		<Parameter name="out" type="real"/>
+	</OutputParameters>
+	
+	<Implementation>
+		<DataFiles>
+			<ScatteredDataFile>motorSimulator.txt</ScatteredDataFile>
+		</DataFiles>
+	</Implementation>
+</Simulator>

@@ -1,0 +1,99 @@
+\begin{thebibliography}{10}
+
+\bibitem{lawrenson1967}
+P.~Lawrenson and S.~Gupta, ``Developments in the performance and theory of
+  segmental-rotor reluctance motors,'' {\em Electrical Engineers, Proceedings
+  of the Institution of}, vol.~114, no.~5, pp.~645--653, 1967.
+
+\bibitem{cruickshank1966}
+A.~Cruickshank, R.~Menzies, and A.~Anderson, ``Axially laminated anisotropic
+  rotors for reluctance motors,'' {\em Electrical Engineers, Proceedings of the
+  Institution of}, vol.~113, pp.~2058--2060, December 1966.
+
+\bibitem{hamler1998}
+A.~Hamler, M.~Trlep, and B.~Hribernik, ``Optimal secondary segment shapes of
+  linear reluctance motors using stochastic searching,'' {\em Magnetics, IEEE
+  Transactions on}, vol.~34, no.~5, pp.~3519--3521, 1998.
+
+\bibitem{kostko1923}
+J.~Kostko, ``Polyphase reaction synchronous motors,'' {\em American Institute
+  of Electrical Engineers, Journal of the}, vol.~42, no.~11, pp.~1162--1168,
+  1923.
+
+\bibitem{leekimlee2014}
+Y.~H. Kim, J.~H. Lee, and J.~K. Lee, ``Optimum design of axially laminated
+  anisotropic rotor synchronous reluctance motor for torque density and ripple
+  improvement,'' in {\em Computation in Electromagnetics (CEM 2014), 9th IET
+  International Conference on}, pp.~1--2, 2014.
+
+\bibitem{boldea2013}
+I.~Boldea, {\em Linear Electric Machines, Drives and MAGLEVs Handbook}.
+\newblock Florida: CRC Press, 2013.
+
+\bibitem{chapman2003}
+S.~J. Chapman, {\em Electric Machinery Fundamentals}.
+\newblock New York: McGraw Hill, 2003.
+
+\bibitem{boldea1994}
+I.~Boldea, Z.~Fu, and S.~Nasar, ``Performance evaluation of axially-laminated
+  anisotropic ({ALA}) rotor reluctance synchronous motors,'' in {\em Industry
+  Applications Society Annual Meeting, 1992., Conference Record of the 1992
+  IEEE}, pp.~212--218 vol.1, 1992.
+
+\bibitem{gieras2000}
+J.~F. Gieras and Z.~J. Piech, {\em Linear Synchronous Motors: Transportation
+  and Automation Systems}.
+\newblock Florida: CRC Press, 2000.
+
+\bibitem{boldea2010}
+I.~Boldea and L.~Tutelea, {\em Electric Machines: steady state, transients and
+  design with MATLAB}.
+\newblock Florida: CRC Press, 2010.
+
+\bibitem{bianchi2011}
+N.~Bianchi, {\em Machine Analysis Using Finite Elements}.
+\newblock Boca Raton: Taylor \& Francis, 2011.
+
+\bibitem{boje1990}
+E.~Boje, J.~Balda, R.~Harley, and R.~Beck, ``Time-domain identification of
+  synchronous machine parameters from simple standstill tests,'' {\em Energy
+  Conversion, IEEE Transactions on}, vol.~5, no.~1, pp.~164--175, 1990.
+
+\bibitem{agarlita2012}
+S.-C. Agarlita, I.~Boldea, and F.~Blaabjerg,
+  ``High-frequency-injection-assisted active-flux-based sensorless vector
+  control of reluctance synchronous motors, with experiments from zero speed,''
+  {\em Industry Applications, IEEE Transactions on}, vol.~48, no.~6,
+  pp.~1931--1939, 2012.
+
+\bibitem{boldea2015}
+D.~Ursu, V.~Gradinaru, B.~Fahimi, and I.~Boldea, ``Six-phase {BLDC} reluctance
+  machines: {FEM}-based characterization and four-quadrant control,'' {\em
+  Industry Applications, IEEE Transactions on}, vol.~51, no.~3, pp.~2105--2115,
+  2015.
+
+\bibitem{stumberger2001}
+G.~Stumberger, B.~Stumberger, and D.~Dolinar, ``Position and current dependent
+  flux linkages, thrust and friction force of linear synchronous reluctance
+  motor,'' in {\em Industry Applications Conference, 2001. Thirty-Sixth IAS
+  Annual Meeting. Conference Record of the 2001 IEEE}, vol.~4, pp.~2310--2317
+  vol.4, 2001.
+
+\bibitem{yuya2007}
+Y.~Ueno, S.~Tahara, and K.~Ogawa, ``Thrust and lateral force of a linear
+  synchronous reluctance motor using by 3-d boundary integral equation
+  method,'' in {\em Electrical Machines and Systems, 2007. ICEMS. International
+  Conference on}, pp.~1610--1613, 2007.
+
+\bibitem{mirzaei2008}
+M.~Mirzaei, S.~Abdollahi, and A.~Vahedi, ``Design optimization of reluctance
+  synchronous linear machines for electromagnetic aircraft launch system,'' in
+  {\em Electromagnetic Launch Technology, 2008 14th Symposium on}, pp.~1--6,
+  2008.
+
+\bibitem{hasanien2010}
+A.~Abd-Rabou, H.~Hasanien, and S.~Sakr, ``Design development of permanent
+  magnet excitation transverse flux linear motor with inner mover type,'' {\em
+  Electric Power Applications, IET}, vol.~4, no.~7, pp.~559--568, 2010.
+
+\end{thebibliography}

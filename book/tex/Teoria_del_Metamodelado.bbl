@@ -1,0 +1,92 @@
+\begin{thebibliography}{10}
+
+\bibitem{forrester2008}
+A.~Forrester, A.~Sobester, and A.~Keane, {\em Engineering Design via Surrogate
+  Modelling: A Practical Guide}.
+\newblock Wiley, 1~ed., 2008.
+
+\bibitem{hastie2008}
+T.~Hastie, R.~Tibshirani, and J.~Friedman, {\em The Elements of Statistical
+  Learning - Data Mining, Inference, and Prediction}.
+\newblock Springer, 2~ed., 2008.
+
+\bibitem{tenne2010}
+Y.~Tenne and C.-K. Goh, {\em Computational Intelligence in Expensive
+  Optimization Problems}, vol.~2 of {\em Adaptation, Learning and
+  Optimization}.
+\newblock Springer, 2010.
+
+\bibitem{giurgea2007}
+S.~Giurgea, H.~S. Zire, and A.~Miraoui, ``Two-stage surrogate model for
+  finite-element-based optimization of permanent-magnet synchronous motor,''
+  {\em IEEE Transactions on Magnetics}, vol.~43, no.~9, pp.~3607--3613, 2007.
+
+\bibitem{meng2010}
+X.~Meng, S.~Wang, J.~Qiu, J.~G. Zhu, Y.~Wang, Y.~Guo, D.~Liu, and W.~Xu,
+  ``Dynamic multilevel optimization of machine design and control parameters
+  based on correlation analysis,'' {\em IEEE Transactions on Magnetics},
+  vol.~46, no.~8, pp.~2779--2782, 2010.
+
+\bibitem{gillon2010}
+F.~Gillon and P.~Brochet, ``Screening and response surface method applied to
+  the numerical optimization of electromagnetic devices,'' {\em IEEE
+  Transactions on Magnetics}, vol.~36, no.~4, pp.~1163--1167, 2000.
+
+\bibitem{silva2015}
+E.~A.~S. Cruz and C.~H.~E. Franco, ``Sequential feature analysis in a floating
+  search evaluation and extraction of weak metaclassifiers,'' {\em Revista UIS
+  Ingenier{\'i}as}, vol.~14, no.~1, 2015.
+
+\bibitem{montgomery2013}
+D.~Montgomery, {\em Design and Analysis of Experiments}.
+\newblock Wiley, 8~ed., 2013.
+
+\bibitem{NFLT}
+D.~Wolpert and W.~Macready, ``No free lunch theorems for optimization,'' {\em
+  Evolutionary Computation, IEEE Transactions on}, vol.~1, no.~1, 1997.
+
+\bibitem{koziel2013}
+S.~Koziel and L.~Leifsson, {\em Surrogate-Based Modeling and Optimization}.
+\newblock Springer, 1~ed., 2013.
+
+\bibitem{park2006}
+J.~M. Park, S.~I. Kim, J.~P. Hong, and J.~H. Lee, ``Rotor design on torque
+  ripple reduction for a synchronous reluctance motor with concentrated winding
+  using response surface methodology,'' {\em IEEE Transactions on Magnetics},
+  vol.~42, no.~10, pp.~3479--3481, 2006.
+
+\bibitem{mohammadi2015}
+M.~H. Mohammadi, T.~Rahman, R.~Silva, M.~Li, and D.~A. Lowther, ``A
+  computationally efficient algorithm for rotor design optimization of
+  synchronous reluctance machines,'' {\em IEEE Transactions on Magnetics},
+  vol.~52, no.~3, pp.~1--4, 2016.
+
+\bibitem{song2011}
+X.~Song, Y.~Park, J.~Li, and J.~Lee, ``Optimization of switched reluctance
+  motor for efficiency improvement using response surface model and kriging
+  model,'' in {\em Computational Sciences and Optimization (CSO), 2011 Fourth
+  International Joint Conference on}, pp.~259--260, 2011.
+
+\bibitem{zhou2007}
+Z.~Zhou, Y.~S. Ong, P.~B. Nair, A.~J. Keane, and K.~Y. Lum, ``Combining global
+  and local surrogate models to accelerate evolutionary optimization,'' {\em
+  IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and
+  Reviews)}, vol.~37, no.~1, pp.~66--76, 2007.
+
+\bibitem{duan2013}
+Y.~Duan and D.~M. Ionel, ``A review of recent developments in electrical
+  machine design optimization methods with a permanent magnet synchronous motor
+  benchmark study,'' in {\em 2011 IEEE Energy Conversion Congress and
+  Exposition}, pp.~3694--3701, 2011.
+
+\bibitem{gorissen2010}
+D.~Gorissen, I.~Couckuyt, E.~Laermans, and T.~Dhaene, ``Multiobjective global
+  surrogate modeling, dealing with the 5-percent problem,'' {\em Engineering
+  with Computers}, vol.~26, no.~1, pp.~81--98, 2010.
+
+\bibitem{crombecq2009}
+K.~Crombecq, L.~D. Tommasi, D.~Gorissen, and T.~Dhaene, ``A novel sequential
+  design strategy for global surrogate modeling,'' in {\em Proceedings of the
+  2009 Winter Simulation Conference (WSC)}, pp.~731--742, 2009.
+
+\end{thebibliography}

@@ -1,0 +1,21 @@
+% ----------------------------------------------------------------------------
+% This file contains profiled data created with the SUMO Toolbox profiler v2015a
+% 
+%   * Name: RebuildBestModelEffect_out
+%   * Description: Impact of adding samples on the overall score of the best model
+%   * Date: 29/02/2016 at 09:13
+% 
+%   * Column1: 	sampleSize: 	Number of samples
+%   * Column2: 	scoreChange: 	Change in the overall best model score
+%
+% ----------------------------------------------------------------------------
+
+2.480000000E2	8.588082233583E-1	
+3.470000000E2	2.935588819281E-1	
+4.470000000E2	1.537500848667E-1	
+5.470000000E2	1.88823053047E-1	
+6.470000000E2	5.578046683011E-3	
+7.460000000E2	1.03130823235E-1	
+8.450000000E2	2.468240809602E-2	
+9.440000000E2	7.708383457213E-2	
+1.043000000E3	3.661151161703E-2	

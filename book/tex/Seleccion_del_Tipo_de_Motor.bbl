@@ -1,0 +1,200 @@
+\begin{thebibliography}{10}
+
+\bibitem{laithwaite1970}
+E.~Laithwaite and S.~Nasar, ``Linear-motion electrical machines,'' {\em
+  Proceedings of the IEEE}, vol.~58, pp.~531--542, April 1970.
+
+\bibitem{guru2001}
+B.~S. Guru and H.~R. Hiziroglu, {\em Electric Machinery and Transformers}.
+\newblock New York: Oxford University Press, 2001.
+
+\bibitem{boldea2013}
+I.~Boldea, {\em Linear Electric Machines, Drives and MAGLEVs Handbook}.
+\newblock Florida: CRC Press, 2013.
+
+\bibitem{leekimlee2006}
+H.-W. Lee, K.-C. Kim, and J.~Lee, ``Review of maglev train technologies,'' {\em
+  Magnetics, IEEE Transactions on}, vol.~42, pp.~1917--1925, July 2006.
+
+\bibitem{bazghaleh2010}
+A.~Bazghaleh, M.~Naghashan, and M.~Meshkatoddini, ``Optimum design of
+  single-sided linear induction motors for improved motor performance,'' {\em
+  Magnetics, IEEE Transactions on}, vol.~46, pp.~3939--3947, Nov 2010.
+
+\bibitem{selcuk2008}
+A.~Selcuk and H.~Kurum, ``Investigation of end effects in linear induction
+  motors by using the finite-element method,'' {\em Magnetics, IEEE
+  Transactions on}, vol.~44, pp.~1791--1795, July 2008.
+
+\bibitem{laithwaite1965}
+E.~Laithwaite, ``The goodness of a machine,'' {\em Electrical Engineers,
+  Proceedings of the Institution of}, vol.~112, pp.~538--541, March 1965.
+
+\bibitem{kuznetsov2008}
+S.~Kuznetsov and D.~Marriott, ``High velocity linear induction launcher with
+  exit-edge compensation for testing of aerospace components,'' in {\em
+  Electromagnetic Launch Technology, 2008 14th Symposium on}, pp.~1--8, June
+  2008.
+
+\bibitem{guo2012}
+X.~Guo, B.~Zhou, and J.~Lian, ``A new method to reduce end effect of linear
+  induction motor,'' {\em Journal of Modern Transportation}, vol.~20, no.~2,
+  pp.~88--92, 2012.
+
+\bibitem{zhang2012}
+Z.~Qingjie and Z.~Yanqing, ``Scheme design of high performance converting
+  control of linear induction motor used for electromagnetic launch,'' in {\em
+  Electromagnetic Launch Technology (EML), 2012 16th International Symposium
+  on}, pp.~1--4, May 2012.
+
+\bibitem{boldea2010}
+I.~Boldea and L.~Tutelea, {\em Electric Machines: steady state, transients and
+  design with MATLAB}.
+\newblock Florida: CRC Press, 2010.
+
+\bibitem{gieras1986}
+J.~Gieras, G.~E. Dawson, and A.~R. Eastham, ``Performance calculation for
+  single-sided linear induction motors with a double-layer reaction rail under
+  constant current excitation,'' {\em Magnetics, IEEE Transactions on},
+  vol.~22, pp.~54--62, Jan 1986.
+
+\bibitem{weixu2007}
+W.~Xu, Y.~Li, G.~Sun, J.~Ren, L.~Tan, K.~Wang, and J.~Han, ``Performance study
+  on high power linear induction motor in transportation,'' in {\em Electrical
+  Machines and Systems, 2007. ICEMS. International Conference on},
+  pp.~1025--1027, Oct 2007.
+
+\bibitem{weixu2008}
+W.~Xu, L.~Tan, J.~He, Y.~Li, J.~Ren, J.~Han, and G.~Sun, ``Performance study
+  for linear induction motor considering winding function method and control
+  scheme,'' in {\em Industrial Technology, 2008. ICIT 2008. IEEE International
+  Conference on}, pp.~1--5, April 2008.
+
+\bibitem{weixu2009}
+W.~Xu, J.~Zhu, L.~Tan, Y.~Guo, S.~Wang, and Y.~Wang, ``Optimal design of a
+  linear induction motor applied in transportation,'' in {\em Industrial
+  Technology, 2009. ICIT 2009. IEEE International Conference on}, pp.~1--6, Feb
+  2009.
+
+\bibitem{dong2014}
+D.~Hu, W.~Xu, and R.~Qu, ``Electromagnetic design optimization of single-sided
+  linear induction motor for improved drive performance based on linear metro
+  application,'' in {\em Power Engineering Conference (AUPEC), 2014
+  Australasian Universities}, pp.~1--6, Sept 2014.
+
+\bibitem{stumberger2004}
+G.~Stumberger, M.~Aydemir, D.~Zarko, and T.~Lipo, ``Design of a linear bulk
+  superconductor magnet synchronous motor for electromagnetic aircraft launch
+  systems,'' {\em Applied Superconductivity, IEEE Transactions on}, vol.~14,
+  pp.~54--62, March 2004.
+
+\bibitem{gieras2000}
+J.~F. Gieras and Z.~J. Piech, {\em Linear Synchronous Motors: Transportation
+  and Automation Systems}.
+\newblock Florida: CRC Press, 2000.
+
+\bibitem{mallison1973}
+J.~Mallinson, ``One-sided fluxes -- a magnetic curiosity?,'' {\em Magnetics,
+  IEEE Transactions on}, vol.~9, pp.~678--682, Dec 1973.
+
+\bibitem{trumper1993}
+D.~Trumper, M.~Williams, and T.~Nguyen, ``Magnet arrays for synchronous
+  machines,'' in {\em Industry Applications Society Annual Meeting, 1993.,
+  Conference Record of the 1993 IEEE}, pp.~9--18 vol.1, Oct 1993.
+
+\bibitem{trumper1994}
+D.~Trumper, W.~jong Kim, and M.~Williams, ``Design and analysis framework for
+  linear permanent magnet machines,'' in {\em Industry Applications Society
+  Annual Meeting, 1994., Conference Record of the 1994 IEEE}, pp.~216--223
+  vol.1, Oct 1994.
+
+\bibitem{seokjang2002}
+S.-M. Jang, S.-H. Lee, I.-K. Yoon, and J.-H. Lee, ``Design criteria for detent
+  force reduction of permanent magnet linear synchronous motor with halbach
+  array,'' in {\em Magnetics Conference, 2002. INTERMAG Europe 2002. Digest of
+  Technical Papers. 2002 IEEE International}, pp.~GU6--, April 2002.
+
+\bibitem{tavana2010}
+N.~Tavana and A.~Shoulaie, ``Minimizing thrust fluctuation in linear
+  permanent-magnet synchronous motor with halbach array,'' in {\em Power
+  Electronic Drive Systems Technologies Conference (PEDSTC), 2010 1st},
+  pp.~302--306, Feb 2010.
+
+\bibitem{shibata1992}
+M.~Shibata, N.~Maki, T.~Saitoh, T.~Kobayashi, E.~Sawano, and H.~Ohshima,
+  ``On-board power supply system of a magnetically levitated vehicle,'' {\em
+  Magnetics, IEEE Transactions on}, vol.~28, pp.~474--477, Jan 1992.
+
+\bibitem{andriollo1997}
+M.~Andriollo, G.~Martinelli, A.~Morini, and A.~Tortella, ``Optimization of the
+  on-board linear generator in {EMS}-{MAGLEV} trains,'' {\em Magnetics, IEEE
+  Transactions on}, vol.~33, pp.~4224--4226, Sep 1997.
+
+\bibitem{minchen2004}
+M.~Chen, D.~Xu, D.~Zhou, and X.~Wu, ``Inductive power transferring in {M}aglev
+  using harmonic injection method,'' in {\em Applied Power Electronics
+  Conference and Exposition, 2004. APEC '04. Nineteenth Annual IEEE}, vol.~2,
+  pp.~1165--1170 vol.2, 2004.
+
+\bibitem{chapman2003}
+S.~J. Chapman, {\em Electric Machinery Fundamentals}.
+\newblock New York: McGraw Hill, 2003.
+
+\bibitem{waichuen2003}
+W.-C. Gan and N.~Cheung, ``Development and control of a low-cost linear
+  variable-reluctance motor for precision manufacturing automation,'' {\em
+  Mechatronics, IEEE/ASME Transactions on}, vol.~8, pp.~326--333, Sept 2003.
+
+\bibitem{pupadubsin2012}
+R.~Pupadubsin, N.~Chayopitak, D.~Taylor, N.~Nulek, S.~Kachapornkul,
+  P.~Jitkreeyarn, P.~Somsiri, and K.~Tungpimolrut, ``Adaptive integral
+  sliding-mode position control of a coupled-phase linear variable reluctance
+  motor for high-precision applications,'' {\em Industry Applications, IEEE
+  Transactions on}, vol.~48, pp.~1353--1363, July 2012.
+
+\bibitem{habeeb2014}
+I.~Habeeb and E.~Ismail, ``Adaptive sliding mode and model predictive control
+  of linear variable reluctance motor,'' in {\em Emerging Research Areas:
+  Magnetics, Machines and Drives (AICERA/iCMMD), 2014 Annual International
+  Conference on}, pp.~1--6, July 2014.
+
+\bibitem{jang2010}
+K.-B. Jang, J.-H. Kim, H.-J. An, and G.-T. Kim, ``Optimal design of
+  auxiliary-teeth to solve circulation current reduction of permanent magnet
+  linear synchronous motor,'' {\em Journal of Central South University of
+  Technology}, vol.~18, no.~3, pp.~690--696, 2011.
+
+\bibitem{hassanpour2008}
+A.~Isfahani, B.~Ebrahimi, and H.~Lesani, ``Design optimization of a low-speed
+  single-sided linear induction motor for improved efficiency and power
+  factor,'' {\em Magnetics, IEEE Transactions on}, vol.~44, pp.~266--272, Feb
+  2008.
+
+\bibitem{vaezzadeh2006}
+S.~Vaez-Zadeh and A.~Isfahani, ``Multiobjective design optimization of air-core
+  linear permanent-magnet synchronous motors for improved thrust and low magnet
+  consumption,'' {\em Magnetics, IEEE Transactions on}, vol.~42, pp.~446--452,
+  March 2006.
+
+\bibitem{shin2015}
+J.-S. Shin, R.~Watanabe, T.~Koseki, and H.-J. Kim, ``Practical design approach
+  of a transverse flux linear synchronous motor for compact size, small mover
+  weight, high efficiency, and low material cost,'' {\em Magnetics, IEEE
+  Transactions on}, vol.~51, pp.~1--4, March 2015.
+
+\bibitem{dongyeuplee2005}
+D.-Y. Lee, C.-G. Jung, K.-J. Yoon, and G.-T. Kim, ``A study on the efficiency
+  optimum design of a permanent magnet type linear synchronous motor,'' {\em
+  Magnetics, IEEE Transactions on}, vol.~41, pp.~1860--1863, May 2005.
+
+\bibitem{abdelaziz2008}
+A.~Abbas and J.~Fletcher, ``Efficiency evaluation of linear permanent magnet
+  synchronous machines using the synthetic loading method,'' in {\em Power
+  Electronics Specialists Conference, 2008. PESC 2008. IEEE}, pp.~3074--3080,
+  June 2008.
+
+\bibitem{perreault2009}
+B.~Perreault, ``Optimizing operation of segmented stator linear synchronous
+  motors,'' {\em Proceedings of the IEEE}, vol.~97, pp.~1777--1785, Nov 2009.
+
+\end{thebibliography}

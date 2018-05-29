@@ -1,0 +1,96 @@
+\begin{thebibliography}{10}
+
+\bibitem{arora2012}
+J.~S. Arorak, {\em Introduction to Optimum Design}.
+\newblock Elsevier, 3~ed., 2012.
+
+\bibitem{bianchi2011}
+N.~Bianchi, {\em Machine Analysis Using Finite Elements}.
+\newblock Boca Raton: Taylor \& Francis, 2011.
+
+\bibitem{boldea2015}
+D.~Ursu, V.~Gradinaru, B.~Fahimi, and I.~Boldea, ``Six-phase {BLDC} reluctance
+  machines: {FEM}-based characterization and four-quadrant control,'' {\em
+  Industry Applications, IEEE Transactions on}, vol.~51, no.~3, pp.~2105--2115,
+  2015.
+
+\bibitem{gudelhofer2012}
+J.~Güdelhöfer, R.~Gottkehaskamp, and A.~Hartmann, ``Numerical calculation of
+  the dynamic behavior of asynchronous motors with {COMSOL} multiphysics,'' in
+  {\em 2012 COMSOL Conference in Milan, Proceedings of the}, 2012.
+
+\bibitem{agarlita2013}
+S.~Agarlita, D.~Ursu, L.~Tutelea, I.~Boldea, and B.~Fahimi, ``{BLDC} multiphase
+  reluctance machines: A revival attempt with 2{D} {FEM} investigation and
+  standstill tests,'' in {\em 2013 IEEE Energy Conversion Congress and
+  Exposition}, pp.~1850--1857, 2013.
+
+\bibitem{mendrela2008}
+X.~Li and E.~A. Mendrela, ``Optimization of construction of linear switched
+  reluctance motor with transverse magnetic flux,'' in {\em Region 5
+  Conference, 2008 IEEE}, pp.~1--5, 2008.
+
+\bibitem{chayopitak2005}
+N.~Chayopitak and D.~G. Taylor, ``Design of linear variable reluctance motor
+  using computer-aided design assistant,'' in {\em IEEE International
+  Conference on Electric Machines and Drives, 2005.}, pp.~1569--1575, 2005.
+
+\bibitem{mohammadi2015}
+M.~H. Mohammadi, T.~Rahman, R.~Silva, M.~Li, and D.~A. Lowther, ``A
+  computationally efficient algorithm for rotor design optimization of
+  synchronous reluctance machines,'' {\em IEEE Transactions on Magnetics},
+  vol.~52, no.~3, pp.~1--4, 2016.
+
+\bibitem{orlova2015}
+S.~Orlova, A.~Vezzini, and V.~Pugachov, ``Analysis of parameters for optimal
+  design of synchronous reluctance motor,'' in {\em Power and Electrical
+  Engineering of Riga Technical University (RTUCON), 2015 56th International
+  Scientific Conference on}, pp.~1--4, 2015.
+
+\bibitem{hamler1998}
+A.~Hamler, M.~Trlep, and B.~Hribernik, ``Optimal secondary segment shapes of
+  linear reluctance motors using stochastic searching,'' {\em Magnetics, IEEE
+  Transactions on}, vol.~34, no.~5, pp.~3519--3521, 1998.
+
+\bibitem{duan2013}
+Y.~Duan and D.~M. Ionel, ``A review of recent developments in electrical
+  machine design optimization methods with a permanent magnet synchronous motor
+  benchmark study,'' in {\em 2011 IEEE Energy Conversion Congress and
+  Exposition}, pp.~3694--3701, 2011.
+
+\bibitem{dubas2008}
+F.~Dubas, A.~Sari, D.~Hissel, and C.~Espanet, ``A comparison between cg and pso
+  algorithms for the design of a pm motor for fuel cell ancillaries,'' in {\em
+  2008 IEEE Vehicle Power and Propulsion Conference}, pp.~1--7, 2008.
+
+\bibitem{vaezzadeh2006}
+S.~Vaez-Zadeh and A.~Isfahani, ``Multiobjective design optimization of air-core
+  linear permanent-magnet synchronous motors for improved thrust and low magnet
+  consumption,'' {\em Magnetics, IEEE Transactions on}, vol.~42, pp.~446--452,
+  March 2006.
+
+\bibitem{staton1993}
+D.~A. Staton, T.~J.~E. Miller, and S.~E. Wood, ``Maximising the saliency ratio
+  of the synchronous reluctance motor,'' {\em IEE Proceedings B - Electric
+  Power Applications}, vol.~140, no.~4, pp.~249--259, 1993.
+
+\bibitem{boldea2013}
+I.~Boldea, {\em Linear Electric Machines, Drives and MAGLEVs Handbook}.
+\newblock Florida: CRC Press, 2013.
+
+\bibitem{dong2014}
+D.~Hu, W.~Xu, and R.~Qu, ``Electromagnetic design optimization of single-sided
+  linear induction motor for improved drive performance based on linear metro
+  application,'' in {\em Power Engineering Conference (AUPEC), 2014
+  Australasian Universities}, pp.~1--6, Sept 2014.
+
+\bibitem{shiri2012}
+A.~Shiri and A.~Shoulaie, ``Design optimization and analysis of single-sided
+  linear induction motor, considering all phenomena,'' {\em IEEE Transactions
+  on Energy Conversion}, vol.~27, no.~2, pp.~516--525, 2012.
+
+\bibitem{bellman1957}
+R.~Bellman, {\em Dynamic programming}.
+\newblock Princeton Univ Pr, 1957.
+
+\end{thebibliography}

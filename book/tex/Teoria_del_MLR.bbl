@@ -1,0 +1,62 @@
+\begin{thebibliography}{10}
+
+\bibitem{fitzgerald2003}
+A.~E. Fitzgerald, C.~K. Jr., and S.~D. Umans, {\em Electric Machinery}.
+\newblock New York: McGraw-Hill, 2003.
+
+\bibitem{park1929}
+R.~H. Park, ``Two-reaction theory of synchronous machines generalized method of
+  analysis-part i,'' {\em Transactions of the American Institute of Electrical
+  Engineers}, vol.~48, no.~3, pp.~716--727, 1929.
+
+\bibitem{chapman2003}
+S.~J. Chapman, {\em Electric Machinery Fundamentals}.
+\newblock New York: McGraw Hill, 2003.
+
+\bibitem{gieras2000}
+J.~F. Gieras and Z.~J. Piech, {\em Linear Synchronous Motors: Transportation
+  and Automation Systems}.
+\newblock Florida: CRC Press, 2000.
+
+\bibitem{boldea2013}
+I.~Boldea, {\em Linear Electric Machines, Drives and MAGLEVs Handbook}.
+\newblock Florida: CRC Press, 2013.
+
+\bibitem{lawrenson1967}
+P.~Lawrenson and S.~Gupta, ``Developments in the performance and theory of
+  segmental-rotor reluctance motors,'' {\em Electrical Engineers, Proceedings
+  of the Institution of}, vol.~114, no.~5, pp.~645--653, 1967.
+
+\bibitem{cruickshank1966}
+A.~Cruickshank, R.~Menzies, and A.~Anderson, ``Axially laminated anisotropic
+  rotors for reluctance motors,'' {\em Electrical Engineers, Proceedings of the
+  Institution of}, vol.~113, pp.~2058--2060, December 1966.
+
+\bibitem{hamler1998}
+A.~Hamler, M.~Trlep, and B.~Hribernik, ``Optimal secondary segment shapes of
+  linear reluctance motors using stochastic searching,'' {\em Magnetics, IEEE
+  Transactions on}, vol.~34, no.~5, pp.~3519--3521, 1998.
+
+\bibitem{kostko1923}
+J.~Kostko, ``Polyphase reaction synchronous motors,'' {\em American Institute
+  of Electrical Engineers, Journal of the}, vol.~42, no.~11, pp.~1162--1168,
+  1923.
+
+\bibitem{leekimlee2014}
+Y.~H. Kim, J.~H. Lee, and J.~K. Lee, ``Optimum design of axially laminated
+  anisotropic rotor synchronous reluctance motor for torque density and ripple
+  improvement,'' in {\em Computation in Electromagnetics (CEM 2014), 9th IET
+  International Conference on}, pp.~1--2, 2014.
+
+\bibitem{boldea1994}
+I.~Boldea, Z.~Fu, and S.~Nasar, ``Performance evaluation of axially-laminated
+  anisotropic ({ALA}) rotor reluctance synchronous motors,'' in {\em Industry
+  Applications Society Annual Meeting, 1992., Conference Record of the 1992
+  IEEE}, pp.~212--218 vol.1, 1992.
+
+\bibitem{boldea2010}
+I.~Boldea and L.~Tutelea, {\em Electric Machines: steady state, transients and
+  design with MATLAB}.
+\newblock Florida: CRC Press, 2010.
+
+\end{thebibliography}

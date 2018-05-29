@@ -1,0 +1,108 @@
+\begin{thebibliography}{10}
+
+\bibitem{chen2007}
+X.~Chen, H.~Zhou, R.~Ma, F.~Zuo, G.~Zhai, and M.~Gong, ``Linear motor driven
+  inverted pendulum and lqr controller design,'' in {\em 2007 IEEE
+  International Conference on Automation and Logistics}, pp.~1750--1754, IEEE,
+  2007.
+
+\bibitem{liu2007}
+A.~Liu, Y.~Liang, S.~Gao, and J.~Gao, ``Modified linear quadratic optimal
+  control method and application in linear brushless direct current motor,'' in
+  {\em Electrical Machines and Systems, 2007. ICEMS. International Conference
+  on}, pp.~1829--1834, IEEE, 2007.
+
+\bibitem{lopez2013}
+V.~G. Lopez, E.~N. Sanchez, and A.~Y. Alanis, ``Pso neural inverse optimal
+  control for a linear induction motor,'' in {\em 2013 IEEE Congress on
+  Evolutionary Computation}, pp.~1976--1982, IEEE, 2013.
+
+\bibitem{fitzgerald2003}
+A.~E. Fitzgerald, C.~K. Jr., and S.~D. Umans, {\em Electric Machinery}.
+\newblock New York: McGraw-Hill, 2003.
+
+\bibitem{boldea2013}
+I.~Boldea, {\em Linear Electric Machines, Drives and MAGLEVs Handbook}.
+\newblock Florida: CRC Press, 2013.
+
+\bibitem{betz1993}
+R.~E. Betz, R.~Lagerquist, M.~Jovanovic, T.~J.~E. Miller, and R.~H. Middleton,
+  ``Control of synchronous reluctance machines,'' {\em IEEE Transactions on
+  Industry Applications}, vol.~29, no.~6, pp.~1110--1122, 1993.
+
+\bibitem{jeanpaul2011}
+J.-P.~L. et. al., {\em Control of Non-conventional Synchronous Motors}.
+\newblock Wiley-ISTE, 2011.
+
+\bibitem{ogata2010}
+K.~Ogata, {\em Ingenieria de Control Moderna}.
+\newblock Pearson, 5~ed., 2010.
+
+\bibitem{chen1993}
+C.-T. Chen, {\em Analog and Digital Control System Design: Transfer-Function,
+  State-Space and Algebraic Methods}.
+\newblock Saunders College Publishing, 1~ed., 1993.
+
+\bibitem{ramana2015}
+P.~Ramana, M.~S. Kalavathi, K.~A. Mary, and V.~D.~G. Kumar, ``Design
+  methodology for torque angle control of a non-linear vector controlled
+  variable reluctance synchronous motor,'' in {\em Electrical, Electronics,
+  Signals, Communication and Optimization (EESCO), 2015 International
+  Conference on}, pp.~1--6, 2015.
+
+\bibitem{cheema2013}
+M.~A.~M. Cheema and J.~E. Fletcher, ``Sensorless vector control of linear
+  permanent magnet synchronous motor,'' in {\em ECCE Asia Downunder (ECCE
+  Asia), 2013 IEEE}, pp.~1098--1104, 2013.
+
+\bibitem{motlagh2012}
+S.~Motlagh and S.~S. Fazel, ``Indirect vector control of linear induction motor
+  considering end effect,'' in {\em Power Electronics and Drive Systems
+  Technology (PEDSTC), 2012 3rd}, pp.~193--198, 2012.
+
+\bibitem{gu2003}
+B.-G. Gu and K.~Nam, ``A vector control scheme for a pm linear synchronous
+  motor in extended region,'' {\em IEEE Transactions on Industry Applications},
+  vol.~39, no.~5, pp.~1280--1286, 2003.
+
+\bibitem{zadeh1965}
+L.~A. Zadeh, ``Fuzzy sets,'' {\em Information and control}, vol.~8, no.~3,
+  pp.~338--353, 1965.
+
+\bibitem{wang1997}
+L.-X. Wang, {\em A Course in Fuzzy Systems and Control}.
+\newblock Prentice Hall, 1~ed., 1997.
+
+\bibitem{passino1998}
+K.~M. Passino, {\em Fuzzy Control}.
+\newblock Addison Wesley Longman, 1~ed., 1998.
+
+\bibitem{zhao2007}
+Y.~Zhao, Q.~Wang, J.~Xu, and C.~Wang, ``A fuzzy sliding mode control based on
+  model reference adaptive control for permanent magnet synchronous linear
+  motor,'' in {\em Industrial Electronics and Applications, 2007. ICIEA 2007.
+  2nd IEEE Conference on}, pp.~980--984, IEEE, 2007.
+
+\bibitem{lin2008}
+Z.-X. Lin {\em et~al.}, ``Self-adjusting fuzzy controller application for
+  linear induction motor control system,'' in {\em Industrial Electronics and
+  Applications, 2008. ICIEA 2008. 3rd IEEE Conference on}, pp.~528--531, IEEE,
+  2008.
+
+\bibitem{chen2011}
+C.-S. Chen, ``Supervisory interval type-2 tsk neural fuzzy network control for
+  linear microstepping motor drives with uncertainty observer,'' {\em Power
+  Electronics, IEEE Transactions on}, vol.~26, no.~7, pp.~2049--2064, 2011.
+
+\bibitem{chen2005}
+Y.-P. Chen, D.-L. Zhang, W.~Ai, Z.-D. Zhou, and L.-Y. Liu, ``An improved fuzzy
+  system for position control of permanent magnet linear motor,'' in {\em
+  Machine Learning and Cybernetics, 2005. Proceedings of 2005 International
+  Conference on}, vol.~5, pp.~2731--2735, IEEE, 2005.
+
+\bibitem{linsen2007}
+Z.~Linsen, T.~Yangping, and Z.~Dailin, ``Application of fuzzy controller in the
+  speed control of permanent magnet linear motors,'' in {\em Control
+  Conference, 2007. CCC 2007. Chinese}, pp.~242--245, IEEE, 2007.
+
+\end{thebibliography}
